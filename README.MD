@@ -3,7 +3,7 @@
 - Gradle 8.7
 
 # for WSL
-echo -e "\n# Android\nexport ANDROID_HOME=/mnt/c/Users/tdc/AppData/Local/Android/Sdk\nexport WSLENV=ANDROID_HOME/p" >> $HOME/.bashrc && source $HOME/.bashrc
+echo -e "\n# Android\nexport ANDROID_HOME=/mnt/c/Users/{{USERNAME}}/AppData/Local/Android/Sdk\nexport WSLENV=ANDROID_HOME/p" >> $HOME/.bashrc && source $HOME/.bashrc
 
 cd /mnt/c/Users/tdc/AppData/Local/Android/Sdk/build-tools/34.0.0
 > mv d8.bat dx.bat
