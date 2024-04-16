@@ -11,6 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "scheme": "your-app-scheme",
     "assetBundlePatterns": [
       "**/*"
     ],
@@ -37,6 +38,9 @@
         "expo-channel-name": "master"
       },
       "runtimeVersion": "1.0.0"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }

@@ -1,5 +1,7 @@
-import { StatusBar } from 'expo-status-bar';
+// import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { NativeRouter, Route } from 'expo-router';
+import HomeLayout from './layouts/HomeLayout';
 import * as Updates from 'expo-updates';
 
 export default function App() {
@@ -8,14 +10,9 @@ export default function App() {
   : 'This app is running an update';
 
   return (
-    <View style={styles.container}>
-      <Text>This is the best app ever</Text>
-      <Text>{runTypeMessage}</Text>
-      <Text>update test</Text>
-      <Text>Sali du food shopper</Text>
-      <Text>this is supposed to be here</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NativeRouter>
+      <Route exact path="/" component={HomeLayout} />
+    </NativeRouter>
   );
 }
 
