@@ -21,10 +21,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.dummytdc.mytestfoodapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7bcbb6b1-4076-4992-a79e-18d0db7e86fe"
       }
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "owner": "dummytdc",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/7bcbb6b1-4076-4992-a79e-18d0db7e86fe",
+      "requestHeaders": {
+        "expo-channel-name": "master"
+      },
+      "runtimeVersion": "1.0.0"
     }
   }
 }
