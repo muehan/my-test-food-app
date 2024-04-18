@@ -1,23 +1,18 @@
-import { Slot } from 'expo-router';
-import { Text } from 'react-native';
-import Header from './components/header';
-import Footer from './components/footer';
+import { Stack } from "expo-router";
 
 export default function HomeLayout() {
   return (
-    <>
-      <Header />
-      {/* <Slot /> */}
-      <Text>Home</Text>
-      <Text>Home</Text>
-      <Text>Home</Text>
-      <Text>Home</Text>
-      <Text>Home</Text>
-      <Text>Home</Text>
-      <Text>Home</Text>
-      <Text>Home</Text>
-      <Text>Home</Text>
-      <Footer />
-    </>
+    <Stack
+      screenOptions={{
+        headerStyle: {
+          backgroundColor: "blue",
+        },
+        headerTintColor: "white",
+        headerTitleStyle: {
+          fontWeight: "bold",
+        },
+      }}
+    >
+    </Stack>
   );
 }
