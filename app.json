@@ -2,7 +2,7 @@
   "expo": {
     "name": "my-test-food-app",
     "slug": "my-test-food-app",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -31,13 +31,13 @@
       }
     },
     "owner": "dummytdc",
-    "runtimeVersion": "1.0.0",
+    "runtimeVersion": "1.0.1",
     "updates": {
       "url": "https://u.expo.dev/7bcbb6b1-4076-4992-a79e-18d0db7e86fe",
       "requestHeaders": {
         "expo-channel-name": "master"
       },
-      "runtimeVersion": "1.0.0"
+      "runtimeVersion": "1.0.1"
     },
     "plugins": [
       "expo-router"
