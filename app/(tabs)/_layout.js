@@ -5,6 +5,13 @@ export default function AppLayout() {
   return (
     <Tabs>
       <Tabs.Screen
+        name="home"
+        options={{
+          title: "Home",
+          tabBarIcon: () => <Text>H</Text>,
+        }}
+      />
+      <Tabs.Screen
         name="cats"
         options={{
           title: "Cats",
@@ -19,5 +26,6 @@ export default function AppLayout() {
         }}
       />
     </Tabs>
+    
   );
 }

@@ -11,6 +11,7 @@ export default function HomeLayout() {
         headerTitleStyle: {
           fontWeight: "bold",
         },
+        headerTitle: "My-Food-App" 
       }}
     >
     </Stack>

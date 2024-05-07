@@ -1,9 +1,14 @@
-import { Link, Stack } from "expo-router";
+import { Link, Stack, useNavigation } from "expo-router";
 import { useEffect, useState } from "react";
 import { FlatList, Pressable, StyleSheet, Text, View } from "react-native";
 
 const Cats = () => {
+    const navigation = useNavigation();
     const [cats, setCats] = useState([]);
+
+    useEffect(() => {
+      navigation.setOptions({ headerShown: false });
+    }, [navigation]);
 
     useEffect(() => {
         fetch("https://api.thecatapi.com/v1/breeds?limit=20")
