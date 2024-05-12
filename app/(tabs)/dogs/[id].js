@@ -32,6 +32,9 @@ const DogDetails = () => {
         <Text style={styles.name}>Name: {dog.name}</Text>
         <Text style={styles.text}>Origin: {dog.origin}</Text>
         <Text style={styles.text}>Temperament: {dog.temperament}</Text>
+        <Text style={styles.text}>Description: {dog.description}</Text>
+        <Text style={styles.text}>Life span: {dog.life_span}</Text>
+        <Text style={styles.text}>Sound: Bark</Text>
       </View>
     </View>
   );

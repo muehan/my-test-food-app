@@ -33,6 +33,8 @@ const CatDetails = () => {
                 <Text style={styles.text}>Origin: {cat.origin}</Text>
                 <Text style={styles.text}>Temperament: {cat.temperament}</Text>
                 <Text style={styles.text}>Description: {cat.description}</Text>
+                <Text style={styles.text}>Life span: {cat.life_span}</Text>
+                <Text style={styles.text}>Sound: Miau</Text>
             </View>
         </View>
     );

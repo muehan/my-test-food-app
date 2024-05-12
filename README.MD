@@ -22,3 +22,6 @@ echo -e "\n# Android\nexport ANDROID_HOME=/mnt/c/Users/{{USERNAME}}/AppData/Loca
 
 # create update 
 - eas update
+
+# create build again
+- npx expo run:android --variant release

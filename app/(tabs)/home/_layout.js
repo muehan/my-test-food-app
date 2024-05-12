@@ -12,9 +12,12 @@ const Layout = () => {
     <View>
       <Text>Home</Text>
       <Text>{runTypeMessage}</Text>
-      <Text>{Updates.runtimeVersion}</Text>
-      <Text>{Updates.updateId}</Text>
-      <Text>{Updates.isEnabled}</Text>
+      <Text>Runtime Version: {Updates.runtimeVersion}</Text>
+      <Text>UpdateId: {Updates.updateId}</Text>
+      <Text>Update enabled: {Updates.isEnabled}</Text>
+      <Text>Update available: {Updates.isAvailable}</Text>
+      <Text>EmergencyLaunch: {Updates.isEmergencyLaunch}</Text>
+      <Text>EmbeddedLaunch: {Updates.isEmbeddedLaunch}</Text>
     </View>
   )
 };
